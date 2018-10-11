@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fromstudytoproduct.fragment.DynamicFrag">
+
+    <fragment
+        android:id="@+id/dnfm_title"
+        android:name="com.hunt.cn.helloandroidworld.fromstudytoproduct.fragment.FragTitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"/>
+
+    <FrameLayout
+        android:id="@+id/dnfm_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dnfm_fp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="微博首页"/>
+
+        <Button
+            android:id="@+id/dnfm_nc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="新闻中心"/>
+
+        <Button
+            android:id="@+id/dnfm_pc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="个人中心"/>
+
+    </LinearLayout>
+
+</LinearLayout>

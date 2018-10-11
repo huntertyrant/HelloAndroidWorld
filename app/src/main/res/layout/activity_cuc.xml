@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fromstudytoproduct.handle_basic_controller_or_event.ClassicUIActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/show_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这里只显示部分控件"
+        android:textColor="#FF4040"
+        android:textSize="24sp"
+        android:visibility="visible"/>
+
+    <EditText
+        android:id="@+id/show_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:enabled="true"
+        android:hint="placeholder预显示"
+        android:inputType="number"
+        android:textSize="24sp"/>
+
+    <SeekBar
+        android:id="@+id/show_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/show_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是一个按钮"/>
+
+    <RadioGroup
+        android:id="@+id/show_group_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/basketball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="篮球" />
+
+        <RadioButton
+            android:id="@+id/volleyball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排球" />
+
+        <RadioButton
+            android:id="@+id/pingpong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="乒乓"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/show_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我显示Toast控件"/>
+
+    <Button
+        android:id="@+id/show_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我显示Dialog控件"/>
+
+    <Button
+        android:id="@+id/short_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是常规点击事件监听按钮"/>
+
+    <Button
+        android:id="@+id/long_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是长按事件监听按钮"/>
+
+    <Button
+        android:id="@+id/touch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是触摸事件监听按钮"/>
+
+    <EditText
+        android:id="@+id/key_event"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:enabled="true"
+        android:hint="我是按键输入事件监听编辑框"
+        android:textSize="24sp"/>
+
+    <Spinner
+        android:id="@+id/selector"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:entries="@array/spinner_items"></Spinner>
+
+    <RadioGroup
+        android:id="@+id/radios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/explain">
+        <RadioButton
+            android:id="@+id/explain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这里是单选按钮改变事件以及焦点事件的监听控件"/>
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"/>
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"/>
+        <RadioButton
+            android:id="@+id/shemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人妖"/>
+        <RadioButton
+            android:id="@+id/talented_women"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女博士"/>
+        <RadioButton
+            android:id="@+id/saucer_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="外星人"/>
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn_cuc_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回MainActivity"/>
+
+</LinearLayout>

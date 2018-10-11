@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_to_cuc"
+        android:layout_width="141dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="120dp"
+        android:text="传统控件预览界面"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+            android:id="@+id/btn_to_aalv"
+            android:layout_width="236dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="1dp"
+            android:text="ArrayAdapter实现的ListView"
+            app:layout_constraintBottom_toTopOf="@+id/btn_to_salv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_to_cuc"
+            app:layout_constraintVertical_bias="0.0"/>
+
+    <Button
+            android:id="@+id/btn_to_salv"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="80dp"
+            android:text="SimpleAdapter实现的ListView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:id="@+id/btn_to_balv"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="1dp"
+            android:text="BaseAdapter实现的ListView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_to_salv"/>
+
+    <Button
+            android:id="@+id/btn_to_stfm"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="35dp"
+            android:text="静态Fragment"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_to_salv"/>
+
+    <Button
+            android:id="@+id/btn_to_vwpg"
+            android:layout_width="243dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="70dp"
+            android:text="ViewPager"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_to_salv"/>
+
+    <Button
+        android:id="@+id/btn_to_vpwf"
+        android:layout_width="243dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="105dp"
+        android:text="嵌套了Fragment的ViewPager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_salv" />
+
+    <Button
+        android:id="@+id/btn_to_vpwt"
+        android:layout_width="243dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="145dp"
+        android:text="嵌套了Fragment和TabLayout的ViewPager"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_salv" />
+
+    <Button
+        android:id="@+id/btn_to_rcle"
+        android:layout_width="243dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="190dp"
+        android:text="RecyclerView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_salv" />
+
+    <Button
+        android:id="@+id/btn_to_mv"
+        android:layout_width="243dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="225dp"
+        android:text="MyView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_salv" />
+
+    <Button
+        android:id="@+id/btn_to_ml"
+        android:layout_width="243dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="260dp"
+        android:text="MyListView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_salv" />
+
+    <Button
+        android:id="@+id/btn_to_muv"
+        android:layout_width="243dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="295dp"
+        android:text="MyUnionView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_salv" />
+
+</android.support.constraint.ConstraintLayout>

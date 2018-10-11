@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fromstudytoproduct.handle_other_controller_or_event.DIYView.union.MyLoginActivity">
+
+    <com.hunt.cn.helloandroidworld.fromstudytoproduct.handle_other_controller_or_event.DIYView.union.LoginView
+        android:id="@+id/login_page"
+        android:layout_width="400dp"
+        android:layout_height="300dp"/>
+
+</RelativeLayout>

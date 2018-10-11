@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fromstudytoproduct.handle_other_controller_or_event.DIYView.create.MyViewActivity">
+
+    <com.hunt.cn.helloandroidworld.fromstudytoproduct.handle_other_controller_or_event.DIYView.create.MyView
+        android:id="@+id/my_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:ViewText="自定义控件"
+        app:ViewTextSize="30sp" />
+</RelativeLayout>

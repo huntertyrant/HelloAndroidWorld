@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ViewText" format="string"/>
+    <attr name="ViewTextSize" format="dimension"/>
+    <declare-styleable name="MyView">
+        <attr name="ViewText"/>
+        <attr name="ViewTextSize"/>
+    </declare-styleable>
+</resources>
